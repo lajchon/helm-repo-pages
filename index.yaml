@@ -3,7 +3,7 @@ entries:
   helm-percipio-base:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-05-13T08:01:12.338132257-04:00"
+    created: "2021-05-13T08:01:15.243352175-04:00"
     description: A Helm chart for Kubernetes
     digest: 0ed9edbd69a9c6601255912a2469eb958ab21597ebf79a2a4f1b39a579d7cce4
     name: helm-percipio-base
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://lajchon.github.io/helm-repo-pages/helm-percipio-base-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-13T08:01:12.335668581-04:00"
+generated: "2021-05-13T08:01:15.242482721-04:00"

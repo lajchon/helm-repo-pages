@@ -4,6 +4,7 @@ SHELL := /bin/bash
 
 .PHONY: package
 package:
+	rm -f index.yaml
 	helm package /home/lajchon/git/gitlab.com/helm-percipio-base
 
 .PHONY: index

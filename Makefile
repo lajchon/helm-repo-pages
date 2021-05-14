@@ -6,7 +6,7 @@ SHELL := /bin/bash
 package:
 	rm -f index.yaml
 	helm package /home/lajchon/git/gitlab.com/helm-percipio-base
-
-.PHONY: index
-index:
 	helm repo index . --url https://lajchon.github.io/helm-repo-pages/
+
+# .PHONY: index
+# index:
